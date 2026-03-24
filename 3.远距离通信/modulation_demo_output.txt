@@ -1,0 +1,4 @@
+Digital message: 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1 0
+First 8 cover samples: 0.0000 0.3827 0.7071 0.9239 1.0000 0.9239 0.7071 0.3827
+Generated carrier, digital signal, analog signal, and six modulated waveforms.
+Output file: modulation_samples.csv
