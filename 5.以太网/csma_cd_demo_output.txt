@@ -1,0 +1,18 @@
+completed: yes
+total slots: 52
+collision events: 5
+logs:
+  slot 0: collision among A, B
+  slot 1: C starts transmitting frame 1
+  slot 4: collision among A, B
+  slot 7: collision among A, B
+  slot 11: A starts transmitting frame 1
+  slot 14: collision among A, B
+  slot 16: collision among A, B
+  slot 18: A starts transmitting frame 2
+  slot 46: B starts transmitting frame 1
+  slot 49: B starts transmitting frame 2
+station summary:
+  A sent=2 attempts=7 collisions=5
+  B sent=2 attempts=7 collisions=5
+  C sent=1 attempts=1 collisions=0

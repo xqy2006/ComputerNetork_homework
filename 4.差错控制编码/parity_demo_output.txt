@@ -1,0 +1,1 @@
+Input parity code bits (for example 101010101): Parity check passed.

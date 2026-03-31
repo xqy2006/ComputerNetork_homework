@@ -1,0 +1,4 @@
+local frame -> accept
+multicast frame -> accept
+broadcast frame -> accept
+other unicast frame -> drop

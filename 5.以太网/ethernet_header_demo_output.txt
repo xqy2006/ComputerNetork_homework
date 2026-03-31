@@ -1,0 +1,4 @@
+ethernet_frame_header size: 14 bytes
+destination: FF FF FF FF FF FF
+source: 00 50 56 C0 00 01
+type_or_length: 0x0800
