@@ -1,0 +1,9 @@
+Subject: Verify your account
+From: noreply@example.com
+To: demo@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Click the following link within 1 hour:
+http://127.0.0.1/verify?user=hw&code=ABCDEF
