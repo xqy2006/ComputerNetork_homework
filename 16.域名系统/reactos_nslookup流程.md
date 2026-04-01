@@ -57,9 +57,9 @@ ReactOS 的 `nslookup` 位于：
 
 6. `InteractiveMode`
 
-- 循环读取用户输入。
-- 支持更换服务器、设置查询类型、查看当前状态等命令。
-- 对普通主机名/IP 输入则继续调用 `PerformLookup`。
+- 按当前 ReactOS 源码命名，程序里保留了 `InteractiveMode` 入口。
+- 但从当前 Doxygen 可见，这部分仍标注为 `TODO`，实际会输出“Feature not implemented.”，并不是一个已经完整可用的交互式命令循环。
+- 因此阅读源码时，应把重点放在一次性查询路径，也就是参数解析、正反向判断、DNS 请求构造、发送与响应解析。
 
 ## 和 Windows 下 nslookup 的对应关系
 
@@ -73,4 +73,4 @@ ReactOS 的 `nslookup` 位于：
 
 ReactOS 的 `nslookup` 本质上是：
 
-“读取默认 DNS 配置和用户参数 -> 确定查询类型 -> 手工拼装 DNS 请求报文 -> 通过 `SendRequest` 发给 DNS 服务器 -> 解析返回的资源记录并输出结果；若未给查询目标则进入交互模式重复执行这一流程。”
+“读取默认 DNS 配置和用户参数 -> 确定查询类型 -> 手工拼装 DNS 请求报文 -> 通过 `SendRequest` 发给 DNS 服务器 -> 解析返回的资源记录并输出结果；源码里虽然保留了交互模式入口，但当前版本并未完整实现。”

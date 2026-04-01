@@ -1,135 +1,330 @@
 {
   "aps": [
     {
-      "floor": 1,
-      "x": 20,
-      "y": 20,
-      "band": "2.4GHz",
-      "channel": "1"
-    },
-    {
-      "floor": 1,
-      "x": 50,
-      "y": 20,
-      "band": "5GHz",
-      "channel": "36"
-    },
-    {
-      "floor": 1,
-      "x": 80,
-      "y": 20,
-      "band": "2.4GHz",
-      "channel": "6"
-    },
-    {
-      "floor": 1,
-      "x": 20,
-      "y": 60,
-      "band": "5GHz",
-      "channel": "40"
-    },
-    {
-      "floor": 1,
-      "x": 50,
-      "y": 60,
-      "band": "2.4GHz",
-      "channel": "11"
-    },
-    {
-      "floor": 1,
-      "x": 80,
-      "y": 60,
-      "band": "5GHz",
-      "channel": "44"
+      "floor": 3,
+      "row": 7,
+      "col": 9,
+      "x": 23.75,
+      "y": 18.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 134,
+      "score": 527.5
     },
     {
       "floor": 2,
-      "x": 20,
-      "y": 20,
-      "band": "5GHz",
-      "channel": "48"
+      "row": 23,
+      "col": 9,
+      "x": 23.75,
+      "y": 58.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 132,
+      "score": 511.0
     },
     {
       "floor": 2,
-      "x": 50,
-      "y": 20,
-      "band": "2.4GHz",
-      "channel": "1"
+      "row": 7,
+      "col": 27,
+      "x": 68.75,
+      "y": 18.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 128,
+      "score": 495.0
     },
     {
       "floor": 2,
-      "x": 80,
-      "y": 20,
-      "band": "5GHz",
-      "channel": "36"
+      "row": 23,
+      "col": 27,
+      "x": 68.75,
+      "y": 58.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 128,
+      "score": 495.0
+    },
+    {
+      "floor": 1,
+      "row": 7,
+      "col": 15,
+      "x": 38.75,
+      "y": 18.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 121,
+      "score": 475.5
+    },
+    {
+      "floor": 3,
+      "row": 11,
+      "col": 33,
+      "x": 83.75,
+      "y": 28.75,
+      "channel_24": "6",
+      "channel_5": "36",
+      "newly_covered": 103,
+      "score": 399.1
+    },
+    {
+      "floor": 3,
+      "row": 19,
+      "col": 17,
+      "x": 43.75,
+      "y": 48.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 100,
+      "score": 393.2
+    },
+    {
+      "floor": 1,
+      "row": 19,
+      "col": 21,
+      "x": 53.75,
+      "y": 48.75,
+      "channel_24": "6",
+      "channel_5": "36",
+      "newly_covered": 95,
+      "score": 368.2
     },
     {
       "floor": 2,
-      "x": 20,
-      "y": 60,
-      "band": "2.4GHz",
-      "channel": "6"
+      "row": 11,
+      "col": 3,
+      "x": 8.75,
+      "y": 28.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 96,
+      "score": 362.6
+    },
+    {
+      "floor": 3,
+      "row": 3,
+      "col": 21,
+      "x": 53.75,
+      "y": 8.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 89,
+      "score": 337.8
+    },
+    {
+      "floor": 1,
+      "row": 3,
+      "col": 33,
+      "x": 83.75,
+      "y": 8.75,
+      "channel_24": "6",
+      "channel_5": "36",
+      "newly_covered": 86,
+      "score": 330.1
+    },
+    {
+      "floor": 1,
+      "row": 27,
+      "col": 33,
+      "x": 83.75,
+      "y": 68.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 82,
+      "score": 315.1
+    },
+    {
+      "floor": 1,
+      "row": 19,
+      "col": 3,
+      "x": 8.75,
+      "y": 48.75,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 78,
+      "score": 298.8
+    },
+    {
+      "floor": 3,
+      "row": 21,
+      "col": 33,
+      "x": 83.75,
+      "y": 53.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 79,
+      "score": 294.9
+    },
+    {
+      "floor": 3,
+      "row": 27,
+      "col": 3,
+      "x": 8.75,
+      "y": 68.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 71,
+      "score": 271.1
+    },
+    {
+      "floor": 1,
+      "row": 27,
+      "col": 15,
+      "x": 38.75,
+      "y": 68.75,
+      "channel_24": "11",
+      "channel_5": "36",
+      "newly_covered": 72,
+      "score": 260.7
+    },
+    {
+      "floor": 1,
+      "row": 3,
+      "col": 5,
+      "x": 13.75,
+      "y": 8.75,
+      "channel_24": "6",
+      "channel_5": "36",
+      "newly_covered": 65,
+      "score": 241.4
+    },
+    {
+      "floor": 3,
+      "row": 27,
+      "col": 21,
+      "x": 53.75,
+      "y": 68.75,
+      "channel_24": "6",
+      "channel_5": "40",
+      "newly_covered": 67,
+      "score": 239.3
+    },
+    {
+      "floor": 1,
+      "row": 16,
+      "col": 35,
+      "x": 88.75,
+      "y": 41.25,
+      "channel_24": "1",
+      "channel_5": "36",
+      "newly_covered": 64,
+      "score": 238.5
     },
     {
       "floor": 2,
-      "x": 50,
-      "y": 60,
-      "band": "5GHz",
-      "channel": "40"
+      "row": 9,
+      "col": 15,
+      "x": 38.75,
+      "y": 23.75,
+      "channel_24": "6",
+      "channel_5": "40",
+      "newly_covered": 59,
+      "score": 189.3
+    },
+    {
+      "floor": 1,
+      "row": 11,
+      "col": 21,
+      "x": 53.75,
+      "y": 28.75,
+      "channel_24": "11",
+      "channel_5": "40",
+      "newly_covered": 43,
+      "score": 118.4
+    },
+    {
+      "floor": 3,
+      "row": 16,
+      "col": 23,
+      "x": 58.75,
+      "y": 41.25,
+      "channel_24": "1",
+      "channel_5": "40",
+      "newly_covered": 41,
+      "score": 113.6
+    },
+    {
+      "floor": 3,
+      "row": 16,
+      "col": 6,
+      "x": 16.25,
+      "y": 41.25,
+      "channel_24": "6",
+      "channel_5": "40",
+      "newly_covered": 37,
+      "score": 104.3
+    },
+    {
+      "floor": 1,
+      "row": 16,
+      "col": 10,
+      "x": 26.25,
+      "y": 41.25,
+      "channel_24": "11",
+      "channel_5": "40",
+      "newly_covered": 34,
+      "score": 86.8
     },
     {
       "floor": 2,
-      "x": 80,
-      "y": 60,
-      "band": "2.4GHz",
-      "channel": "11"
+      "row": 3,
+      "col": 37,
+      "x": 93.75,
+      "y": 8.75,
+      "channel_24": "11",
+      "channel_5": "40",
+      "newly_covered": 29,
+      "score": 77.69999999999999
     },
     {
-      "floor": 3,
-      "x": 20,
-      "y": 20,
-      "band": "2.4GHz",
-      "channel": "1"
+      "floor": 2,
+      "row": 23,
+      "col": 37,
+      "x": 93.75,
+      "y": 58.75,
+      "channel_24": "6",
+      "channel_5": "40",
+      "newly_covered": 25,
+      "score": 60.699999999999996
     },
     {
-      "floor": 3,
-      "x": 50,
-      "y": 20,
-      "band": "5GHz",
-      "channel": "44"
+      "floor": 1,
+      "row": 29,
+      "col": 3,
+      "x": 8.75,
+      "y": 73.75,
+      "channel_24": "6",
+      "channel_5": "40",
+      "newly_covered": 21,
+      "score": 49.5
     },
     {
-      "floor": 3,
-      "x": 80,
-      "y": 20,
-      "band": "2.4GHz",
-      "channel": "6"
+      "floor": 2,
+      "row": 1,
+      "col": 5,
+      "x": 13.75,
+      "y": 3.75,
+      "channel_24": "1",
+      "channel_5": "40",
+      "newly_covered": 22,
+      "score": 44.8
     },
     {
-      "floor": 3,
-      "x": 20,
-      "y": 60,
-      "band": "5GHz",
-      "channel": "48"
-    },
-    {
-      "floor": 3,
-      "x": 50,
-      "y": 60,
-      "band": "2.4GHz",
-      "channel": "11"
-    },
-    {
-      "floor": 3,
-      "x": 80,
-      "y": 60,
-      "band": "5GHz",
-      "channel": "36"
+      "floor": 2,
+      "row": 16,
+      "col": 38,
+      "x": 96.25,
+      "y": 41.25,
+      "channel_24": "11",
+      "channel_5": "44",
+      "newly_covered": 14,
+      "score": 21.6
     }
   ],
   "coverage": {
-    "1": 0.7747489239598279,
-    "2": 0.7747489239598279,
-    "3": 0.7747489239598279
-  }
+    "1": 0.9434954007884363,
+    "2": 0.9272237196765498,
+    "3": 0.9280104712041884
+  },
+  "threshold_dbm": -65.0,
+  "cell_size_m": 2.5
 }

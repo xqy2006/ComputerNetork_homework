@@ -1,16 +1,18 @@
 from pathlib import Path
 
-from ap_deploy import summarize_coverages, write_outputs
+from ap_deploy import write_outputs
 
 
 def main() -> None:
     base = Path(__file__).resolve().parent
-    write_outputs(base)
-    coverages = summarize_coverages()
-    print("AP deployment outputs generated:")
+    _, aps, coverages = write_outputs(base)
+    print("AP deployment outputs generated from three floor matrices:")
+    print(f"ap count: {len(aps)}")
     for floor, ratio in coverages.items():
         print(f"floor {floor}: {ratio:.1%}")
-    print(f"files: {base / 'ap_plan.csv'}, {base / 'ap_plan.json'}, {base / 'ap_heatmap.png'}")
+    print(f"layout: {base / 'building_layout.json'}")
+    print(f"plan: {base / 'ap_plan.csv'}")
+    print(f"heatmap: {base / 'ap_heatmap.png'}")
 
 
 if __name__ == "__main__":
